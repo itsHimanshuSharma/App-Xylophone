@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7.0"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/aKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Red"
+        android:onClick="playA"
+        />
+
+    <Button
+        android:id="@+id/bKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Orange"
+        android:onClick="playB"
+        />
+
+    <Button
+        android:id="@+id/cKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Yellow"
+        android:onClick="playC"
+        />
+
+    <Button
+        android:id="@+id/dKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Turquoise"
+        android:onClick="playD"
+        />
+
+    <Button
+        android:id="@+id/eKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Green"
+        android:onClick="playE"
+        />
+
+    <Button
+        android:id="@+id/fKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Blue"
+        android:onClick="playF"
+        />
+
+    <Button
+        android:id="@+id/gKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/Purple"
+        android:onClick="playG"
+        />
+</LinearLayout>
